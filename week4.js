@@ -1,5 +1,5 @@
-const button = document.querySelector('button');
+const button = document.querySelector('red');
 
-button.addEventListener('click', event => {
-  button.style.backgroundColor = "red" ;
+red.addEventListener('click', event => {
+  red.style.backgroundColor = "red" ;
 });
