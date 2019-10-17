@@ -1,6 +1,7 @@
 /* This is for the red color of the button */
-.red {
-	background-color: red;
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
 }
 
 /* This is for the bblue color of the button */
