@@ -2,18 +2,59 @@
 <!--
 ===============================================
 Student Name: Joseph Carlo Magsino
-Solution for Assignment 3
+INFO 600 Week 4 In-class Exercise
 ===============================================
 -->
 
 <html>
 <head> 
+	<title>Functional and Conditional Statement</title>
+
+	<link rel="stylesheet" type="text/css" href="a3-stylesheet-JosephCarlo-Magsino.css">
+
+	<script>
+		// This is a function to print a text depending on the button chosen in the HTML code
+		function printMessage (color) {
+
+			// This is to display the text in red
+			if (color == 'red') { document.getElementById("output").innerHTML = ("<p class=red>You clicked the red word.</p>");
+
+			// This is to display the text in blue
+		} else if (color == 'blue') { document.getElementById("output").innerHTML = ("<p class=blue>You clicked the blue word.</p>");
+
+		// This is to display the text in green
+	} else if (color == 'green') { document.getElementById("output").innerHTML = ("<p class=green>You clicked the green word.</p>");
+}
+};
+</script>
+
 </head> 
 
 <body>
-  <h3 style="color:red;">Hello, my name is Joseph Carlo Magsino and I go to Drexel University.</h3>
-  <br />
-<img src="drexel.jpeg" />
+
+	<h2 class="head">Functional and Conditional Statement</h2>
+
+	<!-- This is the navigation bar -->
+	<nav class="nav">
+		<a href="a3-question1-JosephCarlo-Magsino.html">Question 1</a> |
+		<a href="a3-question2-JosephCarlo-Magsino.html">Question 2</a> |
+		<a href="a3-question3-JosephCarlo-Magsino.html">Question 3</a>
+	</nav>
+
+	<div class="body">
+		<!-- This is a button to display a text in red, calling the function -->
+		<button id="red" onclick="printMessage('red')">Red</button>
+
+		<!-- This is a button to display a text in blue, calling the function -->
+		<button id="blue" onclick="printMessage('blue')">Blue</button>
+
+		<!-- This is a button to display a text in green, calling the function -->
+		<button id="green" onclick="printMessage('green')">Green</button>
+
+		<!-- This is a container for the text to display using the buttons -->
+		<p id="output"></p>
+
+	</div>
 
 </body>
 </html>
