@@ -3,3 +3,8 @@
 function changeColor () {
 document.getElementById("red").style.backgroundColor = "red" };
 		
+const button = document.querySelector('button');
+
+button.addEventListener('click', event => {
+  button.style.backgroundColor = "red" ;
+});
