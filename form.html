@@ -1,0 +1,39 @@
+<!--
+===============================================
+Student Name: Joseph Carlo Magsino
+INFO 600 Assignment 2
+===============================================
+-->
+
+<html>
+<head>
+	<title>Student Record Management/Entry</title>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+	<script type="text/javascript" src="js/main.js"></script>
+
+	
+</head>
+<body>
+	<div id="input" class="body">
+		<h1>Student Record Management</h1>
+		<!-- This is the form for student record management -->
+		<form name="myform">
+				<text class="name1"> Full Name </text>
+				<text class="name2"> Major </text>
+				<text class="name3"> Start Year </text>
+				<br />
+				<input name="fullName" id="fullName" size="35" type="text" />
+				<input name="major" id="major" size="35" type="text" />
+				<input name="startYear" id="startYear" size="35" type="text" />
+				<input id="addRec" type="button" value="Add Record" onClick="addRecord()" />
+		</form>
+	</div>
+
+	<!-- This is the container for the results to display once submitted -->
+	<div id="records" class="body">
+		<h1>Entered Records:</h1>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* For the body of the whole webpage */
+body {
+	background-color: white;
+}
+
+/* This is for "Full Name" */
+.name1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+
+/* This is for "Major" */
+.name2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 100px;
+}
+
+/* This is for the "Start Year" */
+.name3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 135px;
+}
+
+/* This is for the normal text in the body */
+.body {
+	text-align: left;
+	color: black;
+	background-color: #a6b1bf;
+	padding: 20px;
+	margin: auto;
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 1000px;
+}
